@@ -3,30 +3,17 @@
     * [1.2接入步骤](public/accessSteps.md)
     * [1.3报文格式说明及签名验签规则(重要)](public/verification.md)
     * [1.4返回码说明](public/retCodeExplain.md)
-* **2.入网相关接口定义**
-    * [2.1请求商户入网](offline/protocol.md)
-    * [2.2商户资质上传](offline/qualification.md)
-    * [2.3商户信息查询](offline/patch.md)
-    * [2.4微信参数配置-支付授权目录](offline/jsapiPath.md)
-    * [2.5微信参数配置-子商户appId](offline/subAppid.md)
-    * [2.6请求电子协议挑战码](offline/getVerifyCode.md)
-    * [2.7签订电子协议](offline/doVerifyCodeSign.md)
-    * [2.8电子协议下载](offline/queryElectronicAgreement.md)
-    * [2.9商户资质查询](offline/search.md)
-    * [2.10可用终端查询](offline/terminalSearch.md)
-* **3.支付相关接口定义**
-    * [3.1公众号/小程序支付](offline/mini.md)
-    * [3.2刷卡支付-用户被扫](offline/unactivescan.md)
-    * [3.3扫码支付-用户主扫](offline/activescan.md)
-    * [3.4订单状态同步](offline/apisync.md)
-    * [3.5订单撤销](offline/cancel.md)
-    * [3.6订单退费](offline/refund.md)
-    * [3.7订单退费查询](offline/refundquery.md)
-    * [3.8订单关闭](offline/closeOrder.md)
-    * [3.9对账文件下载](offline/downfile.md)
-    * [3.10对账文件](offline/checkfile.md)
-    * [3.11刷脸支付-获取调用凭证](offline/face.md)
-* **4.回调通知接口定义**
-    * [4.1商户入网审核结果通知](basicability/notify.md)
-    * [4.2交易结果通知](basicability/tradenotify.md)
+* **2.商户入驻**
+    * [2.1商户入件](offline/protocol.md)
+    * [2.2POS绑定接口](offline/qualification.md)
+    * [2.3收益（分润）提现接口](offline/patch.md)
+    * [2.4收益/押金账户余额查询接口](offline/jsapiPath.md)
+    * [2.5文件下载（交易对账）](offline/subAppid.md)
+    * [2.6D0状态查询接口](offline/getVerifyCode.md)
+* **3.Mpos交易**
+    * [3.1签到](offline/mini.md)
+    * [3.2消费](offline/unactivescan.md)
+* **4.辅助接口**
+    * [4.1三/四要素认证接口](basicability/notify.md)
+    * [4.2短信接口](basicability/tradenotify.md)
 
